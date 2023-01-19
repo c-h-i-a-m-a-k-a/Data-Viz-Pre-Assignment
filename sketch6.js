@@ -27,7 +27,7 @@ let sketch6 = async function (p){
      
 if (time >= 3 || time == 0){
 	if(time == 0){
-		time++;}
+		time = 2;}
         p.beginShape()
      for (var j = 0; j < 360; j += 360/time ) {
       var rad = i * 3
